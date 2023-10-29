@@ -1,7 +1,4 @@
 /*
-name: mohamed aboubaker hassan
-sNumber: 2010213542
-
 lab assignment due to sunday 00:00
 */
 #include <stdio.h>
