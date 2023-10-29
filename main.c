@@ -18,11 +18,14 @@ struct Student {
 
 // function that creates student new student record
 struct Student* createStudent(char name[], int number, int age) {
+    // creating struct pointer to store the address of the memory allocated in the heap
     struct Student* newStudent = (struct Student*)malloc(sizeof(struct Student));
+    // copiying the given argument name, age number to the pointed name, age number
     strcpy(newStudent->sName, name);
     newStudent->sNumber = number;
     newStudent->sAge = age;
     newStudent->next = NULL;
+    
     return newStudent;
 }
 
